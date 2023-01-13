@@ -1,0 +1,495 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: royalblue;
+    padding: 2rem 0;
+}
+.btn-conatiner{
+    border: 1px solid black;
+    border-radius: 20px;
+    flex-basis: 80%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: #000;
+}
+.btn-conatiner h1{
+    border: 0.5px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #eee;
+    background: #333;
+    font-family: arial,sans-serif;
+    margin-bottom: 2rem;
+}
+.box{
+/*    border: 1px solid #fff;*/
+    margin: 0;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 10px 20px;
+}
+.btn-conatiner .box h3{
+/*    border: 1px solid #fff;*/
+    color: #fff;
+    font-weight: normal;
+    font-family: arial,sans-serif;
+    color: #aaa;
+    margin: 1rem 0;
+    padding: 10px;
+    display: inline-block;
+}
+.btn-conatiner .box h3 small{
+/*    border: 1px solid #fff;*/
+    font-weight: lighter;
+}
+button{
+    border: 2px solid #aaa;
+    display: inline-block;
+    background-color: black;
+    padding: 15px 40px;
+    margin: 0 10px;
+    color: green;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+button:active{
+    scale: 0.97;
+}
+
+/*==================  Button Type-1 ==================*/
+button.btn1{
+    border: 2px solid darkred;
+    background-color: red;
+    color: #000;
+}
+button.btn1:hover{
+    background-color: rgba(255, 0, 0, 0.3);
+    color: #fff;
+}
+button.btn2{
+    border: 2px solid darkgreen;
+    background-color: green;
+    color: #000;
+}
+button.btn2:hover{
+    background-color: rgba(0, 255, 0, 0.3);
+    color: #fff;
+}
+button.btn3{
+    border: 2px solid darkblue;
+    background-color: blue;
+    color: #000;
+}
+button.btn3:hover{
+    background-color: rgba(0, 0, 255, 0.3);
+    color: #fff;
+}
+
+/*==================  Button Type-2  ==================*/    
+button.btn4{
+    border: 2px solid #eee;
+    background-color: #eee;
+    border-radius: 50px;
+    color: #000;
+}
+button.btn4:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #fff;
+}
+button.btn5{
+    border: 2px solid purple;
+    background-color: purple;
+    border-radius: 50px;
+    color: #000;
+}
+button.btn5:hover{
+    background-color: rgba(191, 85, 236, 0.3);
+    color: #eee;
+}
+button.btn6{
+    border: 2px solid teal;
+    background-color: teal;
+    border-radius: 50px;
+    color: #000;
+}
+button.btn6:hover{
+    background-color: rgba(0, 128, 128, 0.3);
+    color: #eee;
+}
+
+/*==================  Button Type-3 ==================*/
+button.btn7{
+    border: 2px solid red;
+    color: red;
+}
+button.btn7:hover{
+    background-color: rgba(255, 0, 0, 0.6);
+    color: #fff;
+}
+button.btn8{
+    border: 2px solid green;
+    color: green;
+}
+button.btn8:hover{
+    background-color: rgba(0, 255, 0, 0.3);
+    color: #fff;
+}
+button.btn9{
+    border: 2px solid blue;
+    color: blue;
+}
+button.btn9:hover{
+    background-color: rgba(0, 0, 255, 0.3);
+    color: #fff;
+}
+
+/*==================  Button Type-4 ==================*/
+button.btn10{
+    border: 2px solid #eee;
+    border-radius: 50px;
+    color: #fff;
+}
+button.btn10:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #fff;
+}
+button.btn11{
+    border: 2px solid purple;
+    border-radius: 50px;
+    color: purple;
+}
+button.btn11:hover{
+    background-color: rgba(191, 85, 236, 0.3);
+    color: #eee;
+}
+button.btn12{
+    border: 2px solid teal;
+    border-radius: 50px;
+    color: teal;
+}
+button.btn12:hover{
+    background-color: rgba(0, 128, 128, 0.5);
+    color: #eee;
+}
+
+/*==================  Button Type-5 ==================*/
+button.btn13{
+    border: 2px dashed darkred;
+    background-color: red;
+    color: #000;
+}
+button.btn13:hover{
+    background-color: rgba(255, 0, 0, 0.3);
+    color: #fff;
+}
+button.btn14{
+    border: 2px dashed darkgreen;
+    background-color: green;
+    color: #000;
+}
+button.btn14:hover{
+    background-color: rgba(0, 255, 0, 0.3);
+    color: #eee;
+}
+button.btn15{
+    border: 2px dashed darkblue;
+    background-color: blue;
+    color: #000;
+}
+button.btn15:hover{
+    background-color: rgba(0, 0, 255, 0.3);
+    color: #eee;
+}
+
+/*==================  Button Type-6 ==================*/
+button.btn16{
+    border: 2px dashed #fff;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50px;
+    color: #fff;
+}
+button.btn16:hover{
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #000;
+}
+button.btn17{
+    border: 2px dashed purple;
+    background-color: rgba(191, 85, 236, 0.8);
+    border-radius: 50px;
+    color: #000;
+}
+button.btn17:hover{
+    background-color: rgba(191, 85, 236, 0.3);
+    color: #eee;
+}
+button.btn18{
+    border: 2px dashed teal;
+    background-color: rgba(0, 128, 128, 0.8);
+    border-radius: 50px;
+    color: #000;
+}
+button.btn18:hover{
+    background-color: rgba(0, 128, 128, 0.3);
+    color: #eee;
+}
+
+/*==================  Button Type-7 ==================*/
+button.btn19{
+    border: 2px dashed darkred;
+    color: #fff;
+}
+button.btn19:hover{
+    background-color: rgba(255, 0, 0, 0.3);
+    color: #fff;
+}
+button.btn20{
+    border: 2px dashed darkgreen;
+    color: #fff;
+}
+button.btn20:hover{
+    background-color: rgba(0, 255, 0, 0.3);
+    color: #eee;
+}
+button.btn21{
+    border: 2px dashed darkblue;
+    color: #fff;
+}
+button.btn21:hover{
+    background-color: rgba(0, 0, 255, 0.3);
+    color: #eee;
+}
+
+/*==================  Button Type-8 ==================*/
+button.btn22{
+    border: 2px dashed white;
+    border-radius: 50px;
+    color: #fff;
+}
+button.btn22:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #fff;
+}
+button.btn23{
+    border: 2px dashed purple;
+    border-radius: 50px;
+    color: purple;
+}
+button.btn23:hover{
+    background-color: rgba(191, 85, 236, 0.3);
+    color: #eee;
+}
+button.btn24{
+    border: 2px dashed teal;
+    border-radius: 50px;
+    color: teal;
+}
+button.btn24:hover{
+    background-color: rgba(0, 128, 128, 0.3);
+    color: #eee;
+}
+
+/*==================  Button Type-9 ==================*/
+button.btn25{
+    border: 2px dotted darkred;
+    color: #fff;
+}
+button.btn25:hover{
+    background-color: rgba(255, 0, 0, 0.3);
+    color: #fff;
+}
+button.btn26{
+    border: 2px dotted darkgreen;
+    color: #fff;
+}
+button.btn26:hover{
+    background-color: rgba(0, 255, 0, 0.3);
+    color: #eee;
+}
+button.btn27{
+    border: 2px dotted darkblue;
+    color: #fff;
+}
+button.btn27:hover{
+    background-color: rgba(0, 0, 255, 0.3);
+    color: #eee;
+}
+
+/*==================  Button Type-10 ==================*/
+button.btn28{
+    border: 2px dotted white;
+    border-radius: 50px;
+    color: #fff;
+}
+button.btn28:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #fff;
+}
+button.btn29{
+    border: 2px dotted purple;
+    border-radius: 50px;
+    color: purple;
+}
+button.btn29:hover{
+    background-color: rgba(191, 85, 236, 0.3);
+    color: #eee;
+}
+button.btn30{
+    border: 2px dotted teal;
+    border-radius: 50px;
+    color: teal;
+}
+button.btn30:hover{
+    background-color: rgba(0, 128, 128, 0.3);
+    color: #eee;
+}
+
+/*==================  Button Type-11 ==================*/
+button.btn31{
+    border: 2px solid orangered;
+    background-color: darkmagenta;
+    width: 300px;
+    color: #fff;
+}
+button.btn31:hover{
+    background-color: orangered;
+    color: #fff;
+}
+button.btn32{
+    border: 2px solid orangered;
+    background-color: darkmagenta;
+    width: 300px;
+    color: #fff;
+}
+button.btn32:hover{
+    background-color: orangered;
+    color: #eee;
+}
+
+/*==================  Button Type-12 ==================*/
+button.btn33{
+    border: 2px solid yellow;
+    border-radius: 50px;
+    background-color: teal;
+    width: 300px;
+    color: #fff;
+}
+button.btn33:hover{
+    background-color: yellow;
+    color: #000;
+}
+button.btn34{
+    border: 2px solid yellow;
+    border-radius: 50px;
+    background-color: teal;
+    width: 300px;
+    color: #fff;
+}
+button.btn34:hover{
+    background-color: yellow;
+    color: #000;
+}
+
+/*==================  Button Type-13 ==================*/
+button.btn35{
+    border: 2px solid darkorange;
+    width: 300px;
+    color: #fff;
+}
+button.btn35:hover{
+    background-color: yellow;
+    color: #000;
+}
+button.btn36{
+    border: 2px solid darkorange;
+    width: 300px;
+    color: #fff;
+}
+button.btn36:hover{
+    background-color: yellow;
+    color: #000;
+}
+
+/*==================  Button Type-14 ==================*/
+button.btn37{
+    border: 2px solid yellow;
+    border-radius: 50px;
+    width: 300px;
+    color: #fff;
+}
+button.btn37:hover{
+    background-color: orange;
+    color: #000;
+}
+button.btn38{
+    border: 2px solid yellow;
+    border-radius: 50px;
+    width: 300px;
+    color: #fff;
+}
+button.btn38:hover{
+    background-color: orange;
+    color: #000;
+}
+
+/*==================  Button Type-15 ==================*/
+button.btn39{
+    border: 2px solid darkmagenta;
+    background-color: rgba(191, 85, 236, 0.8);
+    width: 500px;
+    color: #000;
+}
+button.btn39:hover{
+    background-color: rgba(191, 85, 236, 0.3);
+    color: #fff;
+}
+button.btn40{
+    border: 2px solid darkmagenta;
+/*    border-radius: 50px;*/
+    width: 500px;
+    color: #fff;
+}
+button.btn40:hover{
+    background-color: rgba(191, 85, 236, 0.3);
+}
+
+/*==================  Button Type-16 ==================*/
+button.btn41{
+    border: 2px solid darkgreen;
+    background-color: rgba(0, 255, 0, 0.6);
+    border-radius: 50px;
+    width: 500px;
+    color: #000;
+}
+button.btn41:hover{
+    background-color: rgba(0, 255, 0, 0.3);
+    color: #fff;
+}
+button.btn42{
+    border: 2px solid darkgreen;
+    border-radius: 50px;
+    width: 500px;
+    color: #fff;
+}
+button.btn42:hover{
+    background-color: rgba(0, 255, 0, 0.3);
+}
+
+hr.separator{
+    width: 90%;
+    margin: 1rem auto;
+    padding: 0px;
+    border: 0.4px solid rgba(255, 255, 255, 0.2);
+}
+
